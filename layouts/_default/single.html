@@ -1,0 +1,7 @@
+{{ define "main" }}
+<section>
+    <h1>{{ .Title }}</h1>
+    {{ partial "postMetaInfo" . }}
+    {{ .Content }}
+</section>
+{{ end }}

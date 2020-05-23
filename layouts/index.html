@@ -1,0 +1,11 @@
+{{ define "main" }}
+<section>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <p>
+    {{ range .Pages }} {{ if not .IsPage }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} {{ end }}
+    </p>
+    TODO Put it in partials/social<br />
+    {{ .Params.githubURL }}
+</section>
+{{ end }}

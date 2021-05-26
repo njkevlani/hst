@@ -308,3 +308,14 @@ th,
 td {
     border: none;
 }
+
+
+/* Anchors next to headings */
+
+.heading-anchor {
+    color: gray;
+}
+
+.heading-anchor:hover {
+    color: #1168cc;
+}

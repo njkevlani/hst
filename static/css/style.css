@@ -319,3 +319,26 @@ td {
 .heading-anchor:hover {
     color: #1168cc;
 }
+
+/* Footnote back referance for quoats */
+
+.footnote-backref::before {
+    content: "go back ";
+}
+
+.footnote-backref:hover {
+    color: #1168cc;
+}
+
+.footnote-ref:hover {
+    color: #1168cc;
+    text-decoration: underline;
+}
+
+.footnote-ref::before {
+    content: "[";
+}
+
+.footnote-ref::after {
+    content: "]";
+}

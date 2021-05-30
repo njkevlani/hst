@@ -176,6 +176,16 @@ nav {
 
 nav a:hover {
     text-decoration: underline;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #1168cc;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: black;
 }
 
 .highlight {

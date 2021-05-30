@@ -1,6 +1,11 @@
 <header>
     <nav>
-        [ <a class="nav-btn" href="/index.html">Home</a> ] [ <a class="nav-btn" href="/about.html">About</a> ] [ <a class="nav-btn" href="/contact.html">Contact</a> ] [ <a class="nav-btn rss" href="/feed.rss">RSS</a> ]
+        {{- range .Site.Menus.main -}}
+            {{- $url := .URL | relLangURL -}}
+            {{- with .Page -}}
+                {{- $url = .RelPermalink -}}
+            {{- end -}}
+            [ <a class="nav-btn{{ if $.IsMenuCurrent `main` . | or ($.HasMenuCurrent `main` .) | or (eq $.RelPermalink $url) }} active{{ end }}" href="{{ $url }}">{{ .Name }}</a> ]
+        {{- end -}}
     </nav>
 </header>
-<!-- TODO Better nav bar with back button -->

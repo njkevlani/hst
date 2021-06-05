@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section>
-    <h1>{{ .Title }}</h1>
+    <h1>{{ if eq .Kind "term" }}#{{ end }}{{ .Title }}</h1>
     <p>
         {{ .Content }}
         {{ range .Pages }}

@@ -1,16 +1,19 @@
-Proper Title, header, footer, navbar
+SEO
+Use more things from https://www.matuzo.at/blog/html-boilerplate/
+Code copy button
+Code execute button
 Better Index Page
 icons in overall style
-Code highlight style
-Code copy button
-Proper Formatting for source code
-SEO
 Dark mode
-Pagination
 Naming convention for files, variables
-Functionality to add reference to external source. Eg: https://themes.gohugo.io//theme/minimal-bootstrap-hugo-theme/markdown-syntax/
+Proper Formatting for source code
+Pagination
 Readme cleanup
 Ability to add reactions. Need some simple backend which can be integrated with static sites. eg: https://bhavukjain.com/blog/2020/05/30/zeroday-signin-with-apple/
 Simplest analytics
 Read meter: show how much I have read on a page: top progress bar
 Some way to send newsletter for blog
+Study about robotsTXT
+Font, better mobile view
+Better, lesser CSS
+Search in website

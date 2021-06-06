@@ -3,10 +3,14 @@
     <header>
         <h1>{{ .Title }}</h1>
     </header>
+    
+    <hr />
 
-    {{ .Content }}
+    {{ with .Content }}
+    {{ . }}
 
     <hr />
+    {{ end }}
 
     <p>
         {{ range .Data.Terms.Alphabetical }}

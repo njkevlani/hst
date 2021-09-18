@@ -1,6 +1,11 @@
 # hst
 A simple hugo theme.
 
+# Run exampleSite
+```bash
+cd exampleSite
+hugo serve --themesDir ../..
+```
 
 
 ## Inspiration

@@ -9,6 +9,24 @@ DefaultContentLanguage = "en"
 [menu]
 
   [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "links"
+    name = "Links"
+    url = "/links/"
+    weight = 3
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"

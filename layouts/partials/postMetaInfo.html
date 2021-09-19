@@ -1,14 +1,18 @@
-<div class="posted-by">
-    Posted on {{ .Date.Format "2006-01-02" }}.
-    {{ if not (eq .Lastmod .Date) }}Last updated on {{ .Lastmod.Format "2006-01-02" }}.{{ end }}
-    Approx {{ .FuzzyWordCount }} words.
-    Approx {{ .ReadingTime}} minutes read.
-    <br />
-    {{ with .Params.tags }}
-        Tags:
-        {{ range . }}
-            {{ $href := print (absURL "tags/") (urlize .) }}
-            <a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">#{{ . }}</a>
+{{ $excludePostMeta := .Params.exclude_post_meta | default false }}
+
+{{ if not $excludePostMeta }}
+    <div class="posted-by">
+        Posted on {{ .Date.Format "2006-01-02" }}.
+        {{ if not (eq .Lastmod .Date) }}Last updated on {{ .Lastmod.Format "2006-01-02" }}.{{ end }}
+        Approx {{ .FuzzyWordCount }} words.
+        Approx {{ .ReadingTime}} minutes read.
+        <br />
+        {{ with .Params.tags }}
+            Tags:
+            {{ range . }}
+                {{ $href := print (absURL "tags/") (urlize .) }}
+                <a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">#{{ . }}</a>
+            {{ end }}
         {{ end }}
-    {{ end }}
-</div>
+    </div>
+{{ end }}

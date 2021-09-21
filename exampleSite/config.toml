@@ -33,9 +33,9 @@ DefaultContentLanguage = "en"
     weight = 10
 
 [taxonomies]
-category = "categories"
 tag = "tags"
-series = "series"
+blogTag = "blogTags"
+tilTag = "tilTags"
 
 [privacy]
 

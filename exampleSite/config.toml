@@ -47,6 +47,11 @@ DefaultContentLanguage = "en"
   blogtags = "/blogs/tags/:slug"
   tiltags = "/tils/tags/:slug"
 
+[outputs]
+    section = ["HTML"]
+    taxonomyTerm = ["HTML"]
+    taxonomy = ["HTML"]
+
 [privacy]
 
   [privacy.vimeo]

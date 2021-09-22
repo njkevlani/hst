@@ -21,10 +21,16 @@ DefaultContentLanguage = "en"
     weight = 2
 
   [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
     identifier = "links"
     name = "Links"
     url = "/links/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     identifier = "about"
@@ -33,9 +39,13 @@ DefaultContentLanguage = "en"
     weight = 10
 
 [taxonomies]
-tag = "tags"
-blogtag = "blogtags"
-tiltag = "tiltags"
+  tag = "tags"
+  blogtag = "blogtags"
+  tiltag = "tiltags"
+
+[permalinks]
+  blogtags = "/blogs/tags/:slug"
+  tiltags = "/tils/tags/:slug"
 
 [privacy]
 

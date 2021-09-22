@@ -52,6 +52,11 @@ DefaultContentLanguage = "en"
     taxonomyTerm = ["HTML"]
     taxonomy = ["HTML"]
 
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "rss"
+
 [privacy]
 
   [privacy.vimeo]

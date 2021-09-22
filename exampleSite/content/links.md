@@ -1,7 +1,7 @@
 +++
 title = "Links"
 description = "Links to my online accounts"
-exclude_post_meta = true
+excludePostMeta = true
 +++
 
 # [GitHub](https://github.com/njkevlani)

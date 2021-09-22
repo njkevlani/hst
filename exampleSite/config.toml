@@ -34,8 +34,8 @@ DefaultContentLanguage = "en"
 
 [taxonomies]
 tag = "tags"
-blogTag = "blogTags"
-tilTag = "tilTags"
+blogtag = "blogtags"
+tiltag = "tiltags"
 
 [privacy]
 

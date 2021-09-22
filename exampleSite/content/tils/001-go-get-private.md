@@ -2,7 +2,7 @@
 title: "Go Get Private"
 date: 2021-09-21T22:37:54+05:30
 tags: ["go"]
-tilTags: ["go"]
+tiltags: ["go"]
 ---
 There is no proper way to do this.
 

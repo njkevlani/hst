@@ -1,8 +1,6 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
-    {{- if le .Level 3 -}}
-        <a class="heading-anchor" href="#{{ .Anchor | safeURL }}">
-            {{- strings.Repeat .Level "#" -}}
-        </a>&nbsp;
-    {{- end -}}
+      <a class="heading-anchor" href="#{{ .Anchor | safeURL }}">
+          {{- strings.Repeat .Level "#" -}}
+      </a>&nbsp;
     {{- .Text | safeHTML -}}
 </h{{ .Level }}>

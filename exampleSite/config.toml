@@ -98,4 +98,5 @@ enableEmoji = true
 
   [markup.highlight]
     lineNos = true
+    style = 'autumn'
 

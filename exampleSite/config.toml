@@ -5,6 +5,7 @@ theme = "hst"
 author = "Nilesh Kevlani"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 DefaultContentLanguage = "en"
+enableEmoji = true
 
 [menu]
 
@@ -86,6 +87,15 @@ DefaultContentLanguage = "en"
 
 
 [markup]
+
   [markup.goldmark]
+
     [markup.goldmark.extensions]
       typographer = false
+
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.highlight]
+    lineNos = true
+

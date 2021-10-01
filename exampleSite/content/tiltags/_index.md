@@ -1,5 +1,5 @@
----
-title: "Til Tags"
-url: "/tils/tags"
----
++++
+title = "Til Tags"
+url = "/tils/tags"
++++
 

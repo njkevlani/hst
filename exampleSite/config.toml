@@ -39,12 +39,6 @@ enableEmoji = true
     url = "/links/"
     weight = 5
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-
 [taxonomies]
   tag = "tags"
   blogtag = "blogtags"

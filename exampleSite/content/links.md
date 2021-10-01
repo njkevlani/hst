@@ -4,6 +4,10 @@ description = "Links to my online accounts"
 excludePostMeta = true
 +++
 
+# [Email](mailto:njkevlani@gmail.com)
+
+# [Phone](tel:+918000747878)
+
 # [GitHub](https://github.com/njkevlani)
 
 # [StackOverflow](https://stackoverflow.com/users/6645446/nilesh-kevlani)

@@ -22,16 +22,22 @@ enableEmoji = true
     weight = 2
 
   [[menu.main]]
+    identifier = "til"
+    name = "TILs"
+    url = "/tils/"
+    weight = 3
+
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     identifier = "links"
     name = "Links"
     url = "/links/"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     identifier = "about"

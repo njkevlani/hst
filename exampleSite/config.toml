@@ -6,6 +6,8 @@ author = "Nilesh Kevlani"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 DefaultContentLanguage = "en"
 enableEmoji = true
+enableGitInfo = true
+
 
 [menu]
 

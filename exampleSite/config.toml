@@ -1,9 +1,10 @@
 baseURL = "https://njkevlani.github.io/"
 theme = "hst"
-author = "Nilesh Kevlani"
 enableEmoji = true
 enableGitInfo = true
 
+[author]
+  name = "Nilesh Kevlani"
 
 [menu]
 

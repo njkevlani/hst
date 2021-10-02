@@ -37,8 +37,6 @@ pre {
     display: block;
     padding: 8px;
     line-height: 16px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
 }
 
 img {

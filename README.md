@@ -1,6 +1,8 @@
 # hst
 A simple hugo theme.
 
+# [Demo](https://njkevlani.github.io/hst)
+
 # Run exampleSite
 This will start serving exampleSite on http://localhost:1313.
 

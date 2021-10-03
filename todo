@@ -19,3 +19,5 @@ Add in readme:
  - Features
 Move all TODOs to GitHub issues
 Add system for comments(?)
+Publish site on https://github.com/gohugoio/hugoThemesSiteBuilder
+GHA for creating a release

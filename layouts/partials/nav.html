@@ -1,9 +1,6 @@
 <nav>
+    {{ $currentPage := . }}
     {{- range .Site.Menus.main -}}
-        {{- $url := .URL | relLangURL -}}
-        {{- with .Page -}}
-            {{- $url = .RelPermalink -}}
-        {{- end -}}
-        <span class="nowrap">[ <a class="nav-btn{{ if $.IsMenuCurrent `main` . | or ($.HasMenuCurrent `main` .) | or (eq $.RelPermalink $url) }} active{{ end }}" href="{{ $url }}">{{ .Name }}</a> ]</span>
+        <span class="nowrap">[ <a class="nav-btn{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a> ]</span>
     {{- end -}}
 </nav>

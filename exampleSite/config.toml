@@ -12,31 +12,26 @@ enableGitInfo = true
 [menu]
 
   [[menu.main]]
-    identifier = "home"
     name = "Home"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    identifier = "blogs"
     name = "Blogs"
     url = "/blogs/"
     weight = 2
 
   [[menu.main]]
-    identifier = "til"
     name = "TILs"
     url = "/tils/"
     weight = 3
 
   [[menu.main]]
-    identifier = "tags"
     name = "Tags"
     url = "/tags/"
     weight = 4
 
   [[menu.main]]
-    identifier = "links"
     name = "Links"
     url = "/links/"
     weight = 5

@@ -1,4 +1,4 @@
-baseURL = "https://njkevlani.github.io/"
+baseURL = "https://njkevlani.github.io/hst"
 theme = "hst"
 enableEmoji = true
 enableGitInfo = true

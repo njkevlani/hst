@@ -2,6 +2,9 @@
     <title>{{ .Title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+
+    {{ $stylemain := resources.Get "css/style.css" | minify | fingerprint "sha512" }}
+    <link rel="stylesheet" href="{{ $stylemain.RelPermalink }}" integrity="{{ $stylemain.Data.Integrity }}">
+
 </head>
 <!-- TODO SEO -->

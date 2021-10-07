@@ -1,23 +1,17 @@
-SEO
-Use more things from https://www.matuzo.at/blog/html-boilerplate/
-Code copy button
-Code execute button
-Dark mode
-Proper Formatting for source code
-Spell check for source code
-Ability to add reactions. Need some simple backend which can be integrated with static sites. eg: https://bhavukjain.com/blog/2020/05/30/zeroday-signin-with-apple/
-Simplest analytics
-Read meter: show how much I have read on a page: top progress bar
-Some way to send newsletter for blog
-Study about robotsTXT
-Search in website
-Ability to zoom image, like imgure
-GitHub Action to build and commit exampleSite in gh-pages branch of hst repo
-Add in readme:
- - Screenshots
- - Demo page
- - Features
-Move all TODOs to GitHub issues
-Add system for comments(?)
-Publish site on https://github.com/gohugoio/hugoThemesSiteBuilder
-GHA for creating a release
+todo
+  - GHA for creating a release
+  - Publish site on https://github.com/gohugoio/hugoThemesSiteBuilder
+  - Study about robotsTXT
+  - Add in readme:
+     - Screenshots
+     - Features
+
+Coding related
+  - Use more things from https://www.matuzo.at/blog/html-boilerplate/
+  - Spell check for source code
+  - Proper Formatting for source code
+  - SEO
+
+Not related to hst:
+  - Some way to send newsletter for blog
+

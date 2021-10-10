@@ -49,6 +49,10 @@ pre code {
     line-height: 16px;
 }
 
+pre {
+    margin-bottom: 0;
+}
+
 img {
     max-width: 100%;
     vertical-align: middle;

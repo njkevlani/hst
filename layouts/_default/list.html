@@ -3,13 +3,18 @@
     <h1>{{ if eq .Kind "term" }}#{{ end }}{{ .Title }}</h1>
     <p>
         <hr />
-        
+
         {{ with .Content }}
         {{ . }}
             <hr />
         {{ end }}
-        {{ range .Pages }}
-            {{ .Date.Format "2006-01-02" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
+
+        {{ if gt (len .Pages) 0 }}
+            {{ range .Pages }}
+                {{ .Date.Format "2006-01-02" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
+            {{ end }}
+        {{ else }}
+           Nothing in here at the moment.
         {{ end }}
     </p>
 </section>

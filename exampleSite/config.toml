@@ -29,6 +29,9 @@ enableGitInfo = true
 [taxonomies]
   tag = "tags"
 
+[permalinks]
+  blogs = ":title"
+
 [outputs]
     section = ["HTML"]
     taxonomyTerm = ["HTML"]

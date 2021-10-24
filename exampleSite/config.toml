@@ -4,7 +4,7 @@ enableEmoji = true
 enableGitInfo = true
 
 [author]
-  name = "Nilesh Kevlani"
+  name = "HST Theme"
 
 [params]
   siteGitRepo = "https://github.com/njkevlani/hst"
@@ -22,28 +22,12 @@ enableGitInfo = true
     weight = 2
 
   [[menu.main]]
-    name = "TILs"
-    url = "/tils/"
-    weight = 3
-
-  [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 4
-
-  [[menu.main]]
-    name = "Links"
-    url = "/links/"
-    weight = 5
+    weight = 3
 
 [taxonomies]
   tag = "tags"
-  blogtag = "blogtags"
-  tiltag = "tiltags"
-
-[permalinks]
-  blogtags = "/blogs/tags/:slug"
-  tiltags = "/tils/tags/:slug"
 
 [outputs]
     section = ["HTML"]
@@ -54,34 +38,6 @@ enableGitInfo = true
   [outputFormats.RSS]
     mediatype = "application/rss"
     baseName = "rss"
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
-
 
 [markup]
 

@@ -1,5 +1,5 @@
 +++
-title = "Nilesh Kevlani's Blog"
+title = "Sample blog | HST Theme"
 aliases = ["blog"]
 +++
 

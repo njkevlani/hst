@@ -33,7 +33,7 @@ enableGitInfo = true
   tag = "tags"
 
 [permalinks]
-  blogs = ":title"
+  blogs = "blogs/:title"
 
 [outputs]
     section = ["HTML"]

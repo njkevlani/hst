@@ -7,7 +7,10 @@ enableGitInfo = true
   name = "HST Theme"
 
 [params]
-  siteGitRepo = "https://github.com/njkevlani/hst"
+  [params.postHistory]
+    enabled = true
+    siteGitRepo = "https://github.com/njkevlani/hst"
+    contentDirRelativeToGitRepoRoot = "exampleSite/content"
 
 [frontmatter]
   lastmod = ["lastmod", ":git"]

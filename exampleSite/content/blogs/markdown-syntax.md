@@ -2,6 +2,7 @@
 author = "Hugo Authors"
 title = "Markdown Syntax Guide"
 date = "2019-03-11"
+lastmod = "2021-10-30"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags = ["markdown", "css", "html"]
 aliases = ["migrate-from-jekyl"]

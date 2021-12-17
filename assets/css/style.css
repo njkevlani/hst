@@ -8,6 +8,7 @@ body {
     margin: auto;
     max-width: 72em;
     background: #fefefe;
+    overflow-wrap: break-word;
 }
 
 a:visited {

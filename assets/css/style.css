@@ -20,8 +20,11 @@ a {
     text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
+}
+
+nav a:hover {
     font-weight: bold;
 }
 

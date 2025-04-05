@@ -3,7 +3,7 @@ theme = "hst"
 enableEmoji = true
 enableGitInfo = true
 
-[author]
+[params.author]
   name = "HST Theme"
 
 [params]
@@ -40,7 +40,6 @@ enableGitInfo = true
 
 [outputs]
     section = ["HTML"]
-    taxonomyTerm = ["HTML"]
     taxonomy = ["HTML"]
 
 [outputFormats]

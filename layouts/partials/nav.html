@@ -1,6 +1,0 @@
-<nav>
-    {{ $pageURL := .RelPermalink }}
-    {{- range .Site.Menus.main -}}
-        <span class="nowrap">[ <a class="nav-btn{{ if  eq $pageURL .URL }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a> ]</span>
-    {{- end -}}
-</nav>

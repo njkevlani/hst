@@ -1,18 +1,7 @@
-# hst
-A simple hugo theme.
+# css
+Common CSS used across personal projects.
 
-# [Demo](https://njkevlani.github.io/hst)
-
-# Run exampleSite
-This will start serving exampleSite on http://localhost:1313/hst.
-
-```bash
-cd exampleSite
-hugo serve --themesDir ../..
-```
-
-# How to use this theme in your site
-Go through [Add a theme](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme) section of hugo getting started guide.
+# [Demo](https://njkevlani.dev/)
 
 # Inspiration
 - https://unixsheikh.com/

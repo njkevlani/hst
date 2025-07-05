@@ -1,33 +1,41 @@
 name: Build and Deploy gh-pages
 
-on:
-  push:
-    branches:
-      - main
+on: push  # yamllint disable-line rule:truthy
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-
-    permissions:
-      pages: write
-      id-token: write
-
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - uses: actions/checkout@v2
-
+      - name: convert-readme
+        uses: docker://pandoc/core:3.5
+        with:
+          args: >-
+            --standalone
+            --output=index.html
+            README.md
       - name: upload-artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
+    # TODO - setup minify css deploy as well.
+    # TODO - setup style link check as well.
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: deploy
         uses: actions/deploy-pages@v4
